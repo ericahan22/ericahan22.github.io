@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Erica's personal site</title>
+    <style>
+        /* General Setup */
+        body {
+            background-color: #f6f6f6;
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            font-size: 14px;
+            color: #202122;
+        }
+        .main-content {
+            background-color: #ffffff;
+            margin-left: 12em; 
+            padding: 1.25em 1.5em 1.5em 1.5em;
+            border-left: 1px solid #a7d7f9;
+            border-bottom: 1px solid #a7d7f9;
+            min-height: 100vh;
+            box-sizing: border-box;
+        }
+        footer {
+            margin-left: 14em;
+            padding: 1.25em 1.5em;
+            font-size: 12px;
+            color: #000000;
+            background-color: #f6f6f6;
+            clear: both;
+        }
+        footer a {
+            color: #0645ad;
+        }
+
+        /* Typography */
+        h1 {
+            font-family: 'Linux Libertine', Georgia, serif;
+            font-size: 1.8em;
+            border-bottom: 1px solid #a2a9b1;
+            margin-top: 0;
+            font-weight: normal;
+        }
+        h2 {
+            font-family: 'Linux Libertine', Georgia, serif;
+            border-bottom: 1px solid #a2a9b1;
+            padding-bottom: 3px;
+            margin-top: 1.5em;
+            margin-bottom: 0.5em;
+            font-weight: normal;
+            overflow: hidden;
+        }
+        h3 {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-top: 1em;
+            margin-bottom: 0.5em;
+            border-bottom: none;
+        }
+        p { line-height: 1.6; margin: 0.5em 0 1em 0; }
+        a {
+            color: #0645ad;
+            text-decoration: none;
+        }
+        a:visited {
+            color: #0b0080;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        sup {
+            line-height: 0;
+            vertical-align: super;
+            font-size: 0.8em;
+        }
+        
+        /* Wikipedia-specific elements */
+        .toc {
+            background-color: #f8f9fa;
+            border: 1px solid #a2a9b1;
+            padding: 7px;
+            margin: 0 1.5em 1em 0; 
+            float: left; 
+            width: auto;
+            font-size: 95%;
+        }
+        .toc ul, .toc ol {
+            list-style: none; 
+            margin: 0;
+            padding: 0;
+            text-align: left;
+        }
+        .toc li {
+            margin-bottom: 0.2em;
+            font-size: 0.95em;
+        }
+        .toc-number {
+            color: #202122;
+            margin-right: 0.5em;
+        }
+        .infobox {
+            float: right;
+            width: 300px;
+            margin: 0 0 1em 1em;
+            border: 1px solid #a2a9b1;
+            background-color: #f8f9fa;
+            font-size: 0.9em;
+        }
+        .infobox th { background-color: #cedff2; padding: 5px; }
+        .infobox td { padding: 2px 5px; }
+        .wikitable {
+            background-color: #f8f9fa;
+            color: #202122;
+            margin: 1em 0;
+            border: 1px solid #a2a9b1;
+            border-collapse: collapse;
+            width: auto; 
+            min-width: 60%; 
+        }
+        .wikitable th {
+            background-color: #eaecf0;
+            text-align: left;
+            padding: 0.5em;
+            border: 1px solid #a2a9b1;
+        }
+        .wikitable td {
+            padding: 0.5em;
+            border: 1px solid #a2a9b1;
+            vertical-align: top;
+        }
+        .wikitable tr:nth-child(even) {
+            background-color: #ffffff;
+        }
+        .hatnote {
+            font-style: italic;
+            padding-left: 1.6em;
+            margin-bottom: 0.5em;
+            font-size: 0.95em;
+        }
+        .citation-needed {
+            font-style: italic;
+            cursor: help;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="main-content">
+
+    <h1>Erica Han</h1>
+
+    <table class="infobox">
+        <tr><td colspan="2" style="text-align:center;"><img src="image.jpg" width="300"></td></tr>
+        <tr><th colspan="2">Personal details</th></tr>
+        <tr><td><b>Favourite animal</b></td><td>Cat</td></tr>
+        <tr><td><b>Preferred study location</b></td><td>DP 6th floor</td></tr>
+        <tr><td><b>Energy source</b></td><td><a href="https://en.wikipedia.org/wiki/Tim_Hortons" target="_blank">Tim Hortons</a> Bagel BELT</td></tr>
+        <tr><td><b>Favourite video game</b></td><td><a href="https://en.wikipedia.org/wiki/Stardew_Valley" target="_blank"><i>Stardew Valley</i></a></td></tr>
+        <tr><td><b>Typing speed</b></td><td>161 wpm<sup>[<a href="#" class="citation-needed" title="Monkeytype 15s test, 99% accuracy">citation needed</a>]</sup></td></tr>
+    </table>
+
+    <p><b>Erica Han</b> is a fourth-year student at the <a href="https://en.wikipedia.org/wiki/University_of_Waterloo" target="_blank">University of Waterloo</a>, studying <a href="https://en.wikipedia.org/wiki/Applied_mathematics" target="_blank">Applied Mathematics</a> with <a href="https://en.wikipedia.org/wiki/Computational_science" target="_blank">Scientific Computing</a> (with additional minors in <a href="https://en.wikipedia.org/wiki/Statistics" target="_blank">Statistics</a> and <a href="https://en.wikipedia.org/wiki/Computing" target="_blank">Computing</a>).</p>
+
+    <div class="toc">
+        <div style="text-align: center; font-weight: bold; margin-bottom: 5px;">Contents</div>
+        <ul>
+            <li><span class="toc-number">1</span> <a href="#Personal_life">Personal life</a></li>
+            <li><span class="toc-number">2</span> <a href="#Career">Career</a></li>
+            <li><span class="toc-number">3</span> <a href="#Projects">Projects</a></li>
+            <li><span class="toc-number">4</span> <a href="#External_links">External links</a></li>
+        </ul>
+    </div>
+
+    <h2 id="Personal_life">Personal life</h2>
+    <p>Erica is from <a href="https://en.wikipedia.org/wiki/Mississauga" target="_blank">Mississauga</a>, Ontario and currently attends the University of Waterloo. She is expected to graduate in August of 2026. She is interested in making the world a better place, such as by developing technical solutions for non-profits at <a href="https://uwblueprint.org/" target="_blank">UW Blueprint</a>, and as a tutor for <a href="https://www.caminowellbeing.ca/" target="_blank">Camino Wellbeing + Mental Health</a>'s region-wide tutoring program. She recently discovered that her name is an anagram of "I care," which she sees as an apt description for herself. Erica speaks English, French (Canadian) and Chinese (Mandarin). In her free time, she enjoys <a href="https://en.wikipedia.org/wiki/Crochet" target="_blank">crocheting</a>, travelling, spending time with her loved ones, and reading <a href="https://en.wikipedia.org/wiki/Wikipedia" target="_blank">Wikipedia</a>.
+
+    <h2 id="Career">Career</h2>
+    <div class="hatnote">
+        See also: <a href="https://www.linkedin.com/in/ericahan22" target="_blank">Erica Han | LinkedIn</a>
+    </div>
+    <table class="wikitable">
+        <tr>
+            <th>Years</th>
+            <th>Company</th>
+            <th>Role</th>
+        </tr>
+        <tr>
+            <td>2026–Present</td>
+            <td><b><a href="https://en.wikipedia.org/wiki/Verily" target="_blank">Verily Life Sciences</a></b></td>
+            <td>Data Science Intern</td>
+        </tr>
+        <tr>
+            <td>2025</td>
+            <td><b>University of Waterloo</b></td>
+            <td>Instructional Support Assistant</td>
+        </tr>
+        <tr>
+            <td>2024–2025</td>
+            <td><b><a href="https://en.wikipedia.org/wiki/University_Health_Network" target="_blank">University Health Network</a></b></td>
+            <td>Computational Neuroscience Research Assistant</td>
+        </tr>
+        <tr>
+            <td>2023</td>
+            <td><b><a href="https://en.wikipedia.org/wiki/Perimeter_Institute_for_Theoretical_Physics" target="_blank">Perimeter Institute</a></b></td>
+            <td>Software Developer</td>
+        </tr>
+        <tr>
+            <td>2022</td>
+            <td><b><a href="https://en.wikipedia.org/wiki/OpenText" target="_blank">OpenText</a></b></td>
+            <td>Software Developer</td>
+        </tr>
+    </table>
+
+    <h2 id="Projects">Projects</h2>
+    <h3>Wat2Do.ca</h3>
+    <p>
+        <a href="https://github.com/ericahan22/Wat2Do" target="_blank">Wat2Do.ca</a> is a centralized platform designed to aggregate club events at the University of Waterloo. Developed in 2025, the system utilizes a <a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank">Python</a> and <a href="https://en.wikipedia.org/wiki/Django_(web_framework)" target="_blank">Django</a> backend with a <a href="https://en.wikipedia.org/wiki/PostgreSQL" target="_blank">PostgreSQL</a> database to manage high-volume event data. The platform serves over 2,150 monthly active users at its peak. The solution features an event-driven ingestion pipeline that automates data extraction via social media notifications. This pipeline resolves external identifiers (such as <a href="https://en.wikipedia.org/wiki/Instagram" target="_blank">Instagram</a> user IDs) to trigger <a href="https://en.wikipedia.org/wiki/GitHub#GitHub_Actions" target="_blank">GitHub Actions</a> for real-time data processing.
+    </p>
+
+    <p>
+        Performance optimizations within the platform include the implementation of asynchronous I/O. This concurrency model was originally used to handle parallel requests to the <a href="https://en.wikipedia.org/wiki/OpenAI#API" target="_blank">OpenAI</a> API, which is used to transform unstructured event text into a validated <a href="https://en.wikipedia.org/wiki/JSON" target="_blank">JSON</a> format. The frontend is built using <a href="https://en.wikipedia.org/wiki/TypeScript" target="_blank">TypeScript</a> to ensure type safety across the user interface.
+    </p>
+
+    <h2 id="External_links">External links</h2>
+    <ul>
+        <li><a href="https://github.com/ericahan22">GitHub Profile</a> – Repository of open-source contributions</li>
+        <li><a href="https://linkedin.com/in/ericahan22">LinkedIn</a> – Professional background and network</li>
+    </ul>
+</div>
+
+<footer>
+    <p>This page was last edited on 4 January 2026, at 02:54 (UTC).</p>
+    <p>Text is available under the <a href="https://creativecommons.org/licenses/by/4.0/deed.en" target="_blank">Creative Commons Attribution 4.0 International License</a>.</p>
+</footer>
+
+</body>
+</html>
